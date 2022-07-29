@@ -1,0 +1,73 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+.player{
+    position: fixed;
+}
+.card{
+
+    width:400px;
+    height:500px;
+    background-repeat:no-repeat;
+    border:1px solid #ddd;
+
+}
+.rating{
+    color:#FFD800;
+    position:relative;
+    font-size:50px;
+    letter-spacing: 0px;
+    right:-75px;
+    bottom:430px;
+    line-height: 10px;
+}
+.pos{
+    color:#FFD800;
+    position: relative;
+    font-size: 20px;
+    right:-90px;
+    bottom:460px;
+}
+
+.image {
+    margin:0;
+    padding:0;
+    position: relative;
+    bottom:580px;
+    right:-90px;
+ 
+}
+.image img{
+    width:200px;
+    height:215px;
+}
+.name{
+    color:#FFD800;
+    position:relative;
+    font-size:24px;
+    right:-117px;
+    bottom:615px;
+    line-height: 10px;
+}
+
+
+.container{
+    border-top:1px solid red;
+    color:#FFD800;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width:200px;
+    position:relative;
+    right:-60px;
+    bottom:623px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 10px;
+}
+.left{
+    margin-left:10px;
+    border-right:1PX SOLID RED;
+}
+.right{
+    margin-left:20px;
+}
